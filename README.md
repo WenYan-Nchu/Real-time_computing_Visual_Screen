@@ -62,4 +62,4 @@
 * ## 5.项目主要负责人
 > @WenYan-Nchu（Jiqing Liu）
 * ## 6.项目贡献
-> 环境搭建以及代码编写皆由@WenYan-Nchu（Jiqing Liu）独立完成
+> 环境搭建以及代码编写皆由@WenYan-Nchu（Jiqing Liu）完成
