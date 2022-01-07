@@ -4,10 +4,10 @@
 
 > 老师给出了一个生成数据的软件，它会自己将数据写入到本地的mysql当中，然后就要就利用数据编写一个实时数据看板。
 * ## 2.项目说明
-> 本项目主要是使用canal读取MySQL的binlog文件，将读取到的信息发送到kafka集群中，然后通过flink处理后写入redis数据库中，最后用flask读取数据，ajax接收并更新界面的数据以达到实时看板的功能。
+> 本项目主要是使用canal读取MySQL的binlog文件，将读取到的信息发送到kafka集群中，然后通过flink处理后写入redis数据库中，最后用flask读取数据，Ajax接收并更新界面的数据以达到实时看板的功能。
 
 > 编程语言：
->> * scala 2.11.5
+>> * scala 2.11.5（只要和下面的版本对上即可）
 >> * jdk 1.8.0_281
 >> * python 3.8（推荐anaconda）
 
@@ -19,3 +19,11 @@
 
 > 可视化组件版本
 >> * flask 1.1.2（本地开发）
+>> * Ajax（本质就是html）
+>> * echarts（可视化）
+>> * 虽然网上有很多的可视化大屏的模板，还是推荐自己学着写，研究模板也是挺费时间的，那些酷酷的东西实现起来比较复杂，所以模板比较难以入门，不如自己开发，或者学会了再去研究。
+
+> 教程推荐：
+>> * flink（java版）教程：https://www.bilibili.com/video/BV1qy4y1q728?from=search&seid=9151155942386776091&spm_id_from=333.337.0.0
+>> * flink（Scala版）教程：https://www.bilibili.com/video/BV1Qp4y1Y7YN?from=search&seid=9151155942386776091&spm_id_from=333.337.0.0
+>> * 可视化教程：https://www.bilibili.com/video/BV177411j7qJ?spm_id_from=333.999.0.0
