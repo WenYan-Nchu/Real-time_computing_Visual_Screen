@@ -33,7 +33,7 @@
 >>> 我一开始是使用scala语言开发的flink项目，但因为我是使用redis的增量计算，并没有找到scala关于redis的支持，而java在这方面很全，遂转之。scala项目中可以写java，所以就没动了。
 >> * #### 为什么javascript占了项目语言那么高的比例呢？
 >>> 因为项目里有echarts的js文件。
->> * #### 项目文件按说明
+>> * #### 项目文件说明
 >>> * FlinkStromTest\src\main\java\demo\finalVersion.java
 >>> 开发flink代码的最终版本
 >>> * FlinkStromTest\src\main\java\redis\JRedisUtil.java
