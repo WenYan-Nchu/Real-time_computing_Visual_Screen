@@ -29,7 +29,7 @@
 >> * 可视化教程：https://www.bilibili.com/video/BV177411j7qJ?spm_id_from=333.999.0.0
 
 > 两个项目一个是flink流计算的项目，用java开发的；另一个是可视化的项目，用python和html开发的。
->> * #### 为什么说是java开发而在flink maven项目中是导入的scala？
+>> * 为什么说是java开发而在flink maven项目中是导入的scala？
 >>> 我一开始是使用scala语言开发的flink项目，但因为我是使用redis的增量计算，并没有找到scala关于redis的支持，而java在这方面很全，遂转之。scala项目中可以写java，所以就没动了。
 >> * 为什么javascript占了项目语言那么高的比例呢？
 >>> 因为项目里有echarts的js文件。
