@@ -33,4 +33,19 @@
 >> * 为什么说是java开发而在flink maven项目中是导入的scala？
 >>> 我一开始是使用scala语言开发的flink项目，但因为我是使用redis的增量计算，并没有找到scala关于redis的支持，而java在这方面很全，遂转之。scala项目中可以写java，所以就没动了。
 >> * 为什么javascript占了项目语言那么高的比例呢？
->>> 因为项目里有echarts的js文件
+>>> 因为项目里有echarts的js文件。
+>> * 项目文件按说明
+>>> * FlinkStromTest\src\main\java\demo\finalVersion.java
+>>> 开发flink代码的最终版本
+>>> * FlinkStromTest\src\main\java\redis\JRedisUtil.java
+>>> java的redis工具类
+>>> * visidomTest\show\utils.py
+>>> python的工具类，主要包括redis操作
+>>> * visidomTest\show\app.py
+>>> flask的主程序
+>>> * visidomTest\show\templates\index.html
+>>> 主界面
+>>> * visidomTest\show\static\css\index.css
+>>> 主界面样式表
+>>> * visidomTest\showstatic\js
+>>> echarts的支持、ec_center.js等模板以及ajax函数controller.js
